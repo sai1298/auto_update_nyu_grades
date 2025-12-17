@@ -8,8 +8,8 @@ from click_on_course import brightspace_search
 from lab_grades import *
 
 
-NETID = "sp8201"                  # your NetID
-PASSWORD = "Saishreya@9242"   # <-- replace securely
+NETID = ""                  # your NetID
+PASSWORD = ""   # <-- replace securely
 NETID_EMAIL = f"{NETID}@nyu.edu"
 
 def login_nyu_microsoft(driver, timeout=20):
