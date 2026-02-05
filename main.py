@@ -7,11 +7,11 @@ import time
 from brightspace_login import *
 
 def split_names(names):
-    """Split 'Lakshya Jain; Jack Yang' → ['Lakshya Jain', 'Jack Yang']."""
+    """Split 'Jain; Jack ' → ['Jain', 'Jack']."""
     return [name.strip() for name in names.split(",") if name.strip()]
 
 def split_usernames(usernames):
-    """Split 'lj2515; jy4367' → ['lj2515', 'jy4367']."""
+    """Split 'ljsj; jjwj7' → ['ljwwwq2', 'hfhfk22']."""
     return [u.strip() for u in usernames.split(",") if u.strip()]
 
   # ← change to your .csv file name
@@ -55,8 +55,7 @@ def get_stud_grades(driver=None):
                 update_student_details(driver,name,final_total,final_comments)
                 # count+=1
 
-# print(count)
-# get_studen_grades()
+
 
 
 def home_page(driver):

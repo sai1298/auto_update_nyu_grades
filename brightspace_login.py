@@ -44,10 +44,6 @@ def login_nyu_microsoft(driver, timeout=20):
     )
     sign_in_btn.click()
 
-#####]sssssss
-
-
-
 # def home_page(driver):
 #     # Always reset context back to the main document
 #     driver.switch_to.default_content()
