@@ -68,7 +68,7 @@ def home_page(driver):
 # Example usage:
 if __name__ == "__main__":
     driver = webdriver.Chrome()
-    SUBMISSION_URL = "https://brightspace.nyu.edu/d2l/lms/dropbox/admin/mark/folder_submissions_users.d2l?db=1104645&ou=500446"
+    SUBMISSION_URL = " " ## link to brighspace grade page URL
     driver.get(SUBMISSION_URL)  # or the Brightspace redirect URL
 
     login_nyu_microsoft(driver)
